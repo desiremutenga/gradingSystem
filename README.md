@@ -1,0 +1,3 @@
+# gradingSystem
+HIT 200
+for the system to run you need to first install all the dependencies using npm intall
