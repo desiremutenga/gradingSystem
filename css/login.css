@@ -1,0 +1,129 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(/images/pic.jpg);
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  color: #2b3e51;
+}
+
+h2 {
+  font-weight: 300;
+  text-align: center;
+}
+
+p {
+  position: relative;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+  color: #3ca9e2;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+#login-form-wrap {
+  background: transparent;
+  width: 35%;
+  margin: 30px auto;
+  text-align: center;
+  padding: 20px 0 0 0;
+  border-radius: 4px;
+  box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+#login-form {
+  padding: 0 60px;
+  background: transparent;
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  height: 40px;
+  line-height: 30px;
+  border-radius: 30px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 0 0 0 10px;
+  margin: 0;
+  color: #8a8b8e;
+  border: 1px solid #c2c0ca;
+  font-style: normal;
+  font-size: 16px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  display: inline-block;
+  background: none;
+}
+
+input[type="text"]:valid ~ .validation,
+input[type="password"]:valid ~ .validation {
+  display: block;
+  border-color: #0c0;
+}
+input[type="text"]:valid ~ .validation span,
+input[type="password"]:valid ~ .validation span {
+  background: #0c0;
+  position: absolute;
+  border-radius: 6px;
+}
+
+.validation {
+  display: none;
+  position: absolute;
+  content: " ";
+  height: 60px;
+  width: 30px;
+  right: 15px;
+  top: 0px;
+}
+
+.login {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid#fff;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  border: 2px solid turquoise;
+  background: turquoise;
+  transition: 1s;
+}
+input[type="text"]:hover {
+  border: 2px solid turquoise;
+  background: transparent;
+  transition: 1s;
+}
+input[type="password"]:hover {
+  border: 2px solid turquoise;
+  background: transparent;
+  transition: 1s;
+}
+
+#create-account-wrap {
+  background: transparent;
+  color: #8a8b8e;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 0 0 4px 4px;
+}
+#login-form-wrap h2 {
+  color: white;
+}
