@@ -1,0 +1,70 @@
+<section style="align-items: center;">
+    <form action="/populategraph" method="post">
+ <div id="content-wrapper" class="d-flex flex-column">
+    <div id="content">
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+            <div class="dropdown" style="padding: 8px;">
+                <label for="year" style="font-size: medium; font-weight: bolder; padding: 12px 20px 0px; color:blue;">YEAR</label>
+                <select name="year" class="form-select"style="border: 2px solid color: #fff;">
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                  </select> 
+            
+              </div>
+
+              <input type="text" name="cls" >
+              
+            <div class="dropdown">
+                <label for="year" style="font-size: medium; font-weight: bolder; padding: 12px 20px 0px; color:blue;">TERM</label>
+                <select name="term" class="form-select"style="border: 2px solid #fff;">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select> 
+            
+              </div>
+            <button style="padding: 8px 20px; margin-top: 40px; margin-left: 50px;background: transparent; border: solid 0px white;">Search</button>
+        </nav>
+    </form>
+
+</section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-3 col-md-6 mb-4">
+                    
+                    </div>
+                </div>
+            <div class="row" >
+                <div class="container">
+        <div class="my-5">
+
+            
+            <div class="col-xl-15 col-lg-9">
+                <div class="card shadow mb-4">
+                 
+                    <div
+                        class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                        <h6 class="m-0 font-weight-bold text-primary"> Student Perfomance</h6>
+                        <div class="dropdown no-arrow">
+                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="chart-area">
+                            <canvas id="myAreaChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+      
+                </div>
+            </div>
+
+</div>
